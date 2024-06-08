@@ -52,7 +52,8 @@ alias gs='git status'
 alias ll-'ls -Alh'
 alias ls='lsd --group-dirs first'
 alias cat='bat'
-
+alias gc='g++ -o o'
+alias py='python3'
 
 
 

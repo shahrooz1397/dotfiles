@@ -48,7 +48,7 @@ M.ui = {
 
   -- nvdash (dashboard)
   nvdash = {
-    load_on_startup = true,
+    load_on_startup = false,
 
     header = {
       "           ▄ ▄                   ",
@@ -72,7 +72,7 @@ M.ui = {
     },
   },
 
-  cheatsheet = { theme = "simple" }, -- simple/grid
+  cheatsheet = { theme = "grid" }, -- simple/grid
 
   lsp = {
     -- show function signatures i.e args as you type
