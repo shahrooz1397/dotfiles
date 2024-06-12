@@ -3,7 +3,7 @@
 # Screenshots scripts
 
 iDIR="$HOME/.config/swaync/icons"
-sDIR="$HOME/.config/hypr/UserScripts"
+sDIR="$HOME/.config/hypr/scripts"
 notify_cmd_shot="notify-send -h string:x-canonical-private-synchronous:shot-notify -u low -i ${iDIR}/picture.png"
 
 time=$(date "+%d-%b_%H-%M-%S")
@@ -22,6 +22,7 @@ notify_view() {
             "${sDIR}/Sounds.sh" --screenshot
         else
             ${notify_cmd_shot} "Screenshot of '${active_window_class}' not Saved"
+            "${sDIR}/Sounds.sh" --error
         fi
     elif [[ "$1" == "swappy" ]]; then
 		${notify_cmd_shot} "Screenshot Captured."
@@ -32,6 +33,7 @@ notify_view() {
             "${sDIR}/Sounds.sh" --screenshot
         else
             ${notify_cmd_shot} "Screenshot NOT Saved."
+            "${sDIR}/Sounds.sh" --error
         fi
     fi
 }

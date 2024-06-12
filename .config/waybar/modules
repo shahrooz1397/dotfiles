@@ -588,7 +588,7 @@
 },
   
 "custom/separator#dot-line": {
-    "format": "",
+    "format": "",
     "interval": "once",
     "tooltip": false
 },
