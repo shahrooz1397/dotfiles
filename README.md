@@ -2,6 +2,18 @@
 
 **Dotfiles** is a collection of configuration files aimed at setting up a personalized and efficient Linux environment. This repository includes configurations for various tools and applications, enhancing productivity and aesthetics.
 
+
+## Review of Arch (btw)
+
+![1](utilities/0.png)
+![10](utilities/1.png)
+
+| ![2](utilities/2.png) | ![3](utilities/3.png) |
+|---|---|
+| ![4](utilities/4.png) | ![5](utilities/5.png) |
+| ![6](utilities/6.png) | ![7](utilities/7.png) |
+
+
 ## Table of Contents
 
 1. [Features](#features)
