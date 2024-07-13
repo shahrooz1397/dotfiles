@@ -22,6 +22,7 @@ source $ZSH/oh-my-zsh.sh
 # Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
 
 
+
 ### From this line is for pywal-colors
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
@@ -55,12 +56,10 @@ alias cat='bat'
 alias gc='g++ -o o'
 alias py='python3'
 
+# Set-up FZF key bindings (CTRL R for fuzzy history finder)
+source <(fzf --zsh)
 
-
-
-
-
-
-
-
-
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory

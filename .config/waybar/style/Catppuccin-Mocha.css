@@ -38,7 +38,7 @@ window#waybar.hidden {
 	padding-bottom: 0px;
 	padding-right: 4px;
 	padding-left: 4px;
-	border-radius: 10px;
+	border-radius: 12px;
 
 } 
 
@@ -131,7 +131,7 @@ window#waybar.hidden {
 }
 
 #clock {
-  color: @yellow;
+  color: @text;
 }
 
 #cpu {
@@ -249,7 +249,7 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-  color: @sapphire;
+  color: @green;
 }
 
 #pulseaudio.bluetooth {
