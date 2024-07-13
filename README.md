@@ -1,34 +1,30 @@
-# Hyprdots
+# Dotfiles
 
-**hyprdots** is a collection of dotfiles and configuration files aimed at setting up a personalized and efficient Linux environment. This repository includes configurations for various tools and applications, enhancing productivity and aesthetics.
+**Dotfiles** is a collection of configuration files aimed at setting up a personalized and efficient Linux environment. This repository includes configurations for various tools and applications, enhancing productivity and aesthetics.
 
 ## Table of Contents
 
 1. [Features](#features)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Configuration Details](#configuration-details)
-5. [Contributions](#contributions)
-6. [License](#license)
-7. [Contact](#contact)
+4. [Contributions](#contributions)
+5. [License](#license)
+6. [Contact](#contact)
 
 ## Features
 
-- **Application Configurations**: Custom settings for applications.
-- **Custom Icons**: Personalized icon sets for a unique desktop experience.
+- **Application Configurations**: Custom settings for various applications.
+- **Backup of Old Configurations**: Archive of previous configurations.
 - **Wallpapers**: A curated collection of wallpapers.
-- **tmux Configuration**: Enhanced tmux settings for better terminal multiplexing.
-- **zsh Configuration**: Optimized zsh settings for an improved shell experience.
-- **Backup of Old Dotfiles**: Archive of previous configurations.
 
 ## Installation
 
-To set up your environment using `hyprdots`, follow these steps:
+To set up your environment using these dotfiles, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/ahmad9059/hyprdots.git
-    cd hyprdots
+    git clone https://github.com/yourusername/dotfiles.git
+    cd dotfiles
     ```
 
 2. **Backup Existing Dotfiles**:
@@ -45,12 +41,10 @@ To set up your environment using `hyprdots`, follow these steps:
     cp -r .config ~/
     cp .tmux.conf ~/
     cp .zshrc ~/
-    ```
-
-4. **Apply Desktop Theme**:
-    Extract and apply the Vimix theme:
-    ```bash
-    tar -xf Vimix-1080p.tar.xz -C ~/.themes/
+    cp -r .themes ~/.themes
+    cd .icons
+    unzip .icons.zip
+    cp -r ./ ~/.icons
     ```
 
 ## Usage
@@ -68,33 +62,14 @@ After installation, you can start using the configured applications. Modify the 
     source ~/.zshrc
     ```
 
-- **Desktop Environment**: Apply the new theme and icons through your desktop environment settings.
 
-## Configuration Details
+### utilities
 
-### .config
+- Useful scripts and utilities for system management.
 
-- Contains configurations for various applications like:
-  - `nvim` (Neovim)
-  - `i3` (i3 Window Manager)
-  - `polybar` (Status Bar)
+### wallpapers
 
-### .tmux.conf
-
-- Custom tmux settings for improved usability and aesthetics.
-
-### .zshrc
-
-- Aliases, prompt customization, and plugin settings for zsh.
-
-### Icons and Wallpapers
-
-- Custom icons located in `.icons`.
-- Wallpapers are in the `wallpapers` directory.
-
-### old_dots
-
-- Backup of previous dotfiles for reference and recovery.
+- Curated collection of wallpapers for personalization.
 
 ## Contributions
 
