@@ -35,7 +35,7 @@ To set up your environment using these dotfiles, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/dotfiles.git
+    git clone https://github.com/ahmad9059/dotfiles.git
     cd dotfiles
     ```
 
