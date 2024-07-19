@@ -5,13 +5,13 @@
 
 ## Review of Arch (btw)
 
-![1](utilities/0.png)
-![10](utilities/1.png)
+![1](review/0.png)
+![10](review/1.png)
 
-| ![2](utilities/2.png) | ![3](utilities/3.png) |
+| ![2](review/2.png) | ![3](review/3.png) |
 |---|---|
-| ![4](utilities/4.png) | ![5](utilities/5.png) |
-| ![6](utilities/6.png) | ![7](utilities/7.png) |
+| ![4](review/4.png) | ![5](review/5.png) |
+| ![6](review/6.png) | ![7](review/7.png) |
 
 
 ## Table of Contents
