@@ -5,5 +5,5 @@ Comment=Created By Aditya Shakya (@adi1090x)
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/archcraft
-ScriptFile=/usr/share/plymouth/themes/archcraft/archcraft.script
+ImageDir=/usr/share/plymouth/themes/hyprland-plymouth
+ScriptFile=/usr/share/plymouth/themes/hyprland-plymouth/hyprland-plymouth.script
