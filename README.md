@@ -56,6 +56,7 @@ To set up your environment using these dotfiles, follow these steps:
     cp -r .themes ~/.themes
     cd .icons
     unzip .icons.zip
+    rm .icons.zip
     cp -r ./ ~/.icons
     ```
 
